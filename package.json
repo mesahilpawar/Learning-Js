@@ -1,0 +1,23 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/mesahilpawar/Learning-Js#readme",
+  "bugs": {
+    "url": "https://github.com/mesahilpawar/Learning-Js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesahilpawar/Learning-Js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Learning-conditional-statements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

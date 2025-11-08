@@ -1,5 +1,8 @@
 const readline = require ('readline-sync');
 
+// call this function for license checker using switch statement
+// licenseChecker();
+
 // License age checker
 function licenseChecker(){
     // taking user input
@@ -23,3 +26,5 @@ function licenseChecker(){
             console.log('Please enter valid number')
     }
 }
+
+

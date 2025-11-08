@@ -3,3 +3,5 @@
 # git add <file name> -> when we want to stash specific file in tree
 # git status -> to check the status of the file
 # git commit -m "Message that specify that commit of your work"
+# git push -> When we have to push the changes
+#.gitignore -> This file will keep all the file name that we do not want to push
