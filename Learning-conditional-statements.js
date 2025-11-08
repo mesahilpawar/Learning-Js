@@ -1,7 +1,7 @@
 const readline = require ('readline-sync');
 
 // call this function for license checker using switch statement
-// licenseChecker();
+licenseChecker();
 
 // License age checker
 function licenseChecker(){
