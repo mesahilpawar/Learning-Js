@@ -1,0 +1,5 @@
+# git clone "repo url" -> this command clone the repo in local machine
+# git add . -> this command stash all the file in the tree
+# git add <file name> -> when we want to stash specific file in tree
+# git status -> to check the status of the file
+# git commit -m "Message that specify that commit of your work"
