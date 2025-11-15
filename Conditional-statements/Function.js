@@ -46,13 +46,40 @@
 // console.log(AddingFourValue(5, 10, 15, 30))
 
 // Function with many arguments 
-function sumArrayValue (arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum = sum + arr[i];
-    }
-    return sum;
-}
-const numbers = [1, 2, 3, 4, 5, 6];
+// function sumArrayValue (arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-console.log(sumArrayValue(numbers))
+// console.log(sumArrayValue(numbers))
+
+// Anonymous function 
+// const anonymousFun = function(){
+//     console.log('I am anonymous function and my value is stored in anonymous function')
+// }
+// anonymousFun();
+
+// const squre = function(n) {
+//     return  n * n ;
+// }
+// console.log(squre(6));
+
+// Function with default parameters 
+// function greeting (name = 'sahil'){
+//     let message = `${name}, welcome to 30 days of react`
+//     return message
+// }
+// console.log(greeting());
+// console.log(greeting('sham'));
+
+function fullName (firstName = 'sahil', lastName = 'pawar') {
+    let space = " ";
+    let fullname = firstName + space + lastName;
+    return fullname
+}
+console.log(fullName());
+console.log(fullName('rahul', 'rout'));
