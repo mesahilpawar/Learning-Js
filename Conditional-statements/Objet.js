@@ -127,20 +127,20 @@
 // console.log(personWithMorePoints);
 
 //Exercise no 2
-const personAccount ={
-    firstName : "Sahil",
-    lastName : "pawar",
-    incomes : 500000,
-    expenses : [
-        totalIncome = 600000,
-        totalExpense = 400000,
-        accountInfo = 'Business Account',
-        addIncome = 500000 ,
-        addExpense = 450000,
-        accountBalance = 320000,
+// const personAccount ={
+//     firstName : "Sahil",
+//     lastName : "pawar",
+//     incomes : 500000,
+//     expenses : [
+//         totalIncome = 600000,
+//         totalExpense = 400000,
+//         accountInfo = 'Business Account',
+//         addIncome = 500000 ,
+//         addExpense = 450000,
+//         accountBalance = 320000,
 
-    ]
+//     ]
 
 
-}
-console.log(personAccount);
+// }
+// console.log(personAccount);
