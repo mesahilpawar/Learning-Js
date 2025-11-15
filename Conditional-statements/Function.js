@@ -25,8 +25,22 @@
 // console.log(areaOfCircle(10))
 
 // Function with 2 arguments 
-function sumTwoNum (num1, num2) {
-    let sum = num1 + num2
-    return sum 
+// function sumTwoNum (num1, num2) {
+//     let sum = num1 + num2
+//     return sum 
+// }
+// console.log(sumTwoNum(10, 20))
+
+// Function with 2 arguments 
+// function printFullName (firstName, lastName) {
+//     let fullName = firstName + lastName
+//     return `${firstName} ${lastName}`
+// }
+// console.log(printFullName('sahil', 'pawar'))
+
+// Function with multiple parameters 
+function AddingFourValue (num1, num2, num3, num4) {
+    let total = num1 + num2 + num3 + num4
+    return total
 }
-console.log(sumTwoNum(10, 20))
+console.log(AddingFourValue(5, 10, 15, 30))
