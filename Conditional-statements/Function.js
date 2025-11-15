@@ -39,8 +39,20 @@
 // console.log(printFullName('sahil', 'pawar'))
 
 // Function with multiple parameters 
-function AddingFourValue (num1, num2, num3, num4) {
-    let total = num1 + num2 + num3 + num4
-    return total
+// function AddingFourValue (num1, num2, num3, num4) {
+//     let total = num1 + num2 + num3 + num4
+//     return total
+// }
+// console.log(AddingFourValue(5, 10, 15, 30))
+
+// Function with many arguments 
+function sumArrayValue (arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum = sum + arr[i];
+    }
+    return sum;
 }
-console.log(AddingFourValue(5, 10, 15, 30))
+const numbers = [1, 2, 3, 4, 5, 6];
+
+console.log(sumArrayValue(numbers))
