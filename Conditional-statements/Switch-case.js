@@ -1,4 +1,4 @@
-const readline = require("readline-sync");
+// const readline = require("readline-sync");
 
 // call this function for license checker using switch statement
 // licenseChecker();
@@ -27,8 +27,8 @@ const readline = require("readline-sync");
 //     }
 // }
 
-let a = 5456789;
-let b = 999999999993;
+// let a = 5456789;
+// let b = 999999999993;
 
 // function validIfElseCompare() {
 //   if (a > b) {
@@ -44,6 +44,23 @@ let b = 999999999993;
 // validAgeIfElseCompare();
 
 
-a > b 
-? console.log(a, 'is greater than ', b) 
-: console.log(a, 'is smaller than ', b)
+// a > b 
+// ? console.log(a, 'is greater than ', b) 
+// : console.log(a, 'is smaller than ', b)
+
+// Checking Weather 
+let weather = 'sunny'
+switch (weather){
+    case 'rainy':
+        console.log("You need to carry your raincoat")
+        break;
+    case 'sunny':
+        console.log("You can go outside freely")
+        break;
+    case 'cloudy' :
+        console.log("You need to carry your jacket")
+        break;
+    default:
+        console.log("No need to carry raincoat")
+
+}

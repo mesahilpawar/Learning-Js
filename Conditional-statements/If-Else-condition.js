@@ -1,6 +1,6 @@
 
 
-const readline = require ('readline-sync');
+// const readline = require ('readline-sync');
 
 // function evenOddChecker(){
     
@@ -60,14 +60,27 @@ const readline = require ('readline-sync');
 //Day is weekend day of Working day
 
 
-function workingOrWeekendDay(){
+// function workingOrWeekendDay(){
 
-    const userInput = readline.question('Enter the day: ');
-    let day = userInput.toLowerCase();
+//     const userInput = readline.question('Enter the day: ');
+//     let day = userInput.toLowerCase();
     
-    (day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'thursday' || day === 'friday')
-    ?console.log("This is working day")
-    :console.log('This is weekend day')
-}
+//     (day === 'monday' || day === 'tuesday' || day === 'wednesday' || day === 'thursday' || day === 'friday')
+//     ?console.log("This is working day")
+//     :console.log('This is weekend day')
+// }
 
-workingOrWeekendDay();
+// workingOrWeekendDay();
+
+let israining = true
+if (israining){
+    console.log("you need to carry your raincoat")
+} else {
+    console.log("No need to carry your raincoat")
+}
+israining = false
+if (israining){
+    console.log("you need to carry your raincoat")
+} else {
+    console.log("No need to carry your raincoat")
+}
