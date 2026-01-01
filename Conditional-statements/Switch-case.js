@@ -49,18 +49,18 @@
 // : console.log(a, 'is smaller than ', b)
 
 // Checking Weather 
-let weather = 'sunny'
-switch (weather){
-    case 'rainy':
-        console.log("You need to carry your raincoat")
-        break;
-    case 'sunny':
-        console.log("You can go outside freely")
-        break;
-    case 'cloudy' :
-        console.log("You need to carry your jacket")
-        break;
-    default:
-        console.log("No need to carry raincoat")
+// let weather = 'sunny'
+// switch (weather){
+//     case 'rainy':
+//         console.log("You need to carry your raincoat")
+//         break;
+//     case 'sunny':
+//         console.log("You can go outside freely")
+//         break;
+//     case 'cloudy' :
+//         console.log("You need to carry your jacket")
+//         break;
+//     default:
+//         console.log("No need to carry raincoat")
 
-}
+// }

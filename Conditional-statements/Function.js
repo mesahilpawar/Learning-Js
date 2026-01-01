@@ -76,10 +76,16 @@
 // console.log(greeting());
 // console.log(greeting('sham'));
 
-function fullName (firstName = 'sahil', lastName = 'pawar') {
-    let space = " ";
-    let fullname = firstName + space + lastName;
-    return fullname
+// function fullName (firstName = 'sahil', lastName = 'pawar') {
+//     let space = " ";
+//     let fullname = firstName + space + lastName;
+//     return fullname
+// }
+// console.log(fullName());
+// console.log(fullName('rahul', 'rout'));
+function calculateAge (birthYear, currentYear = 2026) {
+    let age = currentYear - birthYear
+    return age  
 }
-console.log(fullName());
-console.log(fullName('rahul', 'rout'));
+console.log('Age : ' , calculateAge(2002))
+console.log('Age : ', calculateAge(2005))
