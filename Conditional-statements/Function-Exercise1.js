@@ -60,9 +60,32 @@
 // const [name0, name1, name2, name3] = name
 // console.log(name2)
 
-const fullStack = [
-    ['HTML', 'CSS', 'JS', 'REACT'],
-    ['Node', 'Express', 'MongoDB']
+// const fullStack = [
+//     ['HTML', 'CSS', 'JS', 'REACT'],
+//     ['Node', 'Express', 'MongoDB']
+// ]
+// const [frontEnd, backEnd] = fullStack
+// console.log("frontEnd language used " + frontEnd, "backEnd language used " + backEnd)
+
+// const num = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "Sahil"]
+// const [num1, num2, num3, num4, ...rest] = num
+// console.log(num1, num2, num3, num4, rest)
+
+// const Contries = [
+//     'India',
+//     'America',
+//     'Germany',
+//     'France',
+//     'Iceland',
+// ]
+// let [Ian, Ame, ...allContries ] = Contries
+// console.log(Ian, Ame, allContries)
+
+const country = [
+    ['India', 'Mumbai'],
+    ['America', 'New York'],
+    ['France', 'Paris']
 ]
-const [frontEnd, backEnd] = fullStack
-console.log("frontEnd language used " + frontEnd, "backEnd language used " + backEnd)
+for (const[ countries, city] of country) {
+    console.log(countries, city)
+}
