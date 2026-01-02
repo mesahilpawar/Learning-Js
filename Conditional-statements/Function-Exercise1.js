@@ -81,11 +81,19 @@
 // let [Ian, Ame, ...allContries ] = Contries
 // console.log(Ian, Ame, allContries)
 
-const country = [
-    ['India', 'Mumbai'],
-    ['America', 'New York'],
-    ['France', 'Paris']
-]
-for (const[ countries, city] of country) {
-    console.log(countries, city)
+// const country = [
+//     ['India', 'Mumbai'],
+//     ['America', 'New York'],
+//     ['France', 'Paris']
+// ]
+// for (const[ countries, city] of country) {
+//     console.log(countries, city)
+// }
+
+// access the value of an object using destructuring.
+const rectangle = {
+    width : 30,
+    height: 25,
 }
+let {width, height} = rectangle
+console.log(width, height)
