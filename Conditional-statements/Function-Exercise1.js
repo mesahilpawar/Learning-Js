@@ -91,9 +91,30 @@
 // }
 
 // access the value of an object using destructuring.
-const rectangle = {
-    width : 30,
-    height: 25,
+// const rectangle = {
+//     width : 30,
+//     height: 25,
+// }
+// let {width: w, height: h} = rectangle
+// console.log(rectangle)
+
+// Learning props
+const props = {
+    User : {
+        'FirstName': 'sahil',
+        'LastName' : 'pawar',
+        'Age' : 57
+    },
+    Post : {
+        'Title' : 'Software Engg',
+        'Subtitle' : 'Setup Engg',
+        'Year' : 35,
+    },
+    Skills : ['HTML', 'CSS', 'JAVA', 'React', 'MongoDB']
 }
-let {width, height} = rectangle
-console.log(width, height)
+const {User, Post, Skills} = props
+const {FirstName, LastName, Age} = User
+const {Title, Subtitle, Year} = Post
+const {Skills1, Skills2, Skills3, Skills4, Skills5} = Skills
+console.log(User)
+console.log(props)
