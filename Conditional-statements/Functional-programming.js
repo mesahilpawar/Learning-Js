@@ -29,7 +29,12 @@
 // console.log(countryNameWithY)
 
 // Example for searching how many people names has letter "A"
-const Names = ["sahil", "rahul", "shaam", "sumit", "amit"];
-const namesWithA = Names.filter(Name =>
-    Name.includes("a"));
-console.log(namesWithA)
+// const Names = ["sahil", "rahul", "shaam", "sumit", "amit"];
+// const namesWithA = Names.filter(Name =>
+//     Name.includes("a"));
+// console.log(namesWithA)
+
+// Learning the reduce method 
+const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const sum = numbers.reduce ((acc, cur) => acc + cur)
+console.log(sum)
