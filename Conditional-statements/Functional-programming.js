@@ -12,6 +12,11 @@
 // console.log(newName)
 
 // Using Arrow function 
-const Names = ['sai', 'ram', 'sham', 'lin', 'ben']
-const newNames = Names.map ((name) => name.toLocaleUpperCase())
-console.log(newNames)
+// const Names = ['sai', 'ram', 'sham', 'lin', 'ben']
+// const newNames = Names.map ((name) => name.toLocaleUpperCase())
+// console.log(newNames)
+
+// Calculating squares of numbers present in a array using arrow function of map method
+const numbers = [1, 2, 3, 4, 5]
+const squares = numbers.map((n) => n ** 2 )
+console.log(squares)
