@@ -5,8 +5,13 @@
 // console.log(newCountries)
 
 // Example of map methods 
-const Names = ['sai', 'ram', 'sham', 'ben', 'lin']
-const newName = Names.map (function (Name){
-    return Name.toLocaleUpperCase()
-})
-console.log(newName)
+// const Names = ['sai', 'ram', 'sham', 'ben', 'lin']
+// const newName = Names.map (function (Name){
+//     return Name.toLocaleUpperCase()
+// })
+// console.log(newName)
+
+// Using Arrow function 
+const Names = ['sai', 'ram', 'sham', 'lin', 'ben']
+const newNames = Names.map ((name) => name.toLocaleUpperCase())
+console.log(newNames)
