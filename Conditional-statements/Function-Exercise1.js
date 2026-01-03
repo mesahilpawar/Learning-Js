@@ -99,22 +99,58 @@
 // console.log(rectangle)
 
 // Learning props
-const props = {
-    User : {
-        'FirstName': 'sahil',
-        'LastName' : 'pawar',
-        'Age' : 57
-    },
-    Post : {
-        'Title' : 'Software Engg',
-        'Subtitle' : 'Setup Engg',
-        'Year' : 35,
-    },
-    Skills : ['HTML', 'CSS', 'JAVA', 'React', 'MongoDB']
+// const props = {
+//     User : {
+//         'FirstName': 'sahil',
+//         'LastName' : 'pawar',
+//         'Age' : 57
+//     },
+//     Post : {
+//         'Title' : 'Software Engg',
+//         'Subtitle' : 'Setup Engg',
+//         'Year' : 35,
+//     },
+//     Skills : ['HTML', 'CSS', 'JAVA', 'React', 'MongoDB']
+// }
+// const {User, Post, Skills} = props
+// const {FirstName, LastName, Age} = User
+// const {Title, Subtitle, Year} = Post
+// const {Skills1, Skills2, Skills3, Skills4, Skills5} = Skills
+// console.log(User)
+// console.log(props)
+
+//
+// const language = [
+//     {lang: 'English', count: 67},
+//     {lang: 'French', count: 34},
+//     {lang: 'Arabic', count: 21},
+//     {lang: 'Hindi', count: 10},
+//     {lang: 'Spanish', count: 35},
+// ]
+// for (const {lang, count}of language){
+//     console.log(`The ${lang} language is spoken in ${count} countries.`)
+// }
+
+const person = {
+  firstName: 'Asabeneh',
+  lastName: 'Yetayeh',
+  age: 37,
+  country: 'Finland',
+  job: 'Instructor and Developer',
+  skills: [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB',
+    'Python',
+    'D3.js',
+  ],
+  languages: ['Amharic', 'English', 'Suomi(Finnish)'],
 }
-const {User, Post, Skills} = props
-const {FirstName, LastName, Age} = User
-const {Title, Subtitle, Year} = Post
-const {Skills1, Skills2, Skills3, Skills4, Skills5} = Skills
-console.log(User)
-console.log(props)
+const {firstName, lastName, age, country, job, skills, languages} = person
+const [skills1, skills2, skills3, skills4, skills5, skills6, skills7, skills8, skills9] = skills
+const [lang1, lang2, lang3] = languages
+console.log(`${firstName} ${lastName} lives in the ${country}. He is ${age} years old. He is an ${job}. He teaches ${skills}. He speaks ${languages} languages `)
