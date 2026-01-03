@@ -22,8 +22,14 @@
 // console.log(squares)
 
 // Learning Filter method
-const countries = ['Italy', 'India', 'Germany', 'Hungary', 'Norway', 'Paraguay']
-const countryNameWithY = countries.filter((country) => 
-    country.includes("y")
-)
-console.log(countryNameWithY)
+// const countries = ['Italy', 'India', 'Germany', 'Hungary', 'Norway', 'Paraguay']
+// const countryNameWithY = countries.filter((country) => 
+//     country.includes("y")
+// )
+// console.log(countryNameWithY)
+
+// Example for searching how many people names has letter "A"
+const Names = ["sahil", "rahul", "shaam", "sumit", "amit"];
+const namesWithA = Names.filter(Name =>
+    Name.includes("a"));
+console.log(namesWithA)
