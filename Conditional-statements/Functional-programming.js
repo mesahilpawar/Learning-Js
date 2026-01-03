@@ -17,6 +17,13 @@
 // console.log(newNames)
 
 // Calculating squares of numbers present in a array using arrow function of map method
-const numbers = [1, 2, 3, 4, 5]
-const squares = numbers.map((n) => n ** 2 )
-console.log(squares)
+// const numbers = [1, 2, 3, 4, 5]
+// const squares = numbers.map((n) => n ** 2 )
+// console.log(squares)
+
+// Learning Filter method
+const countries = ['Italy', 'India', 'Germany', 'Hungary', 'Norway', 'Paraguay']
+const countryNameWithY = countries.filter((country) => 
+    country.includes("y")
+)
+console.log(countryNameWithY)
