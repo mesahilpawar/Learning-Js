@@ -35,18 +35,29 @@
 // console.log(namesWithA)
 
 // Learning the reduce method
-function sumOfNumbers() {
-  const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//   const sum = numbers.reduce((prevSum,next)=> prevSum + next);
-// deep explanation of reduce function is below 
-  const sum = numbers.reduce((acc, cur) => {
-    console.log("Accumulate value ",acc, " Current value :",cur);
-    acc = acc + cur;
-    console.log("Accumulate value ",acc, " Current value :",cur);
-    console.log("");
-    return acc;
-  });
-  console.log(sum);
-}
+// function sumOfNumbers() {
+//   const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// //   const sum = numbers.reduce((prevSum,next)=> prevSum + next);
+// // deep explanation of reduce function is below 
+//   const sum = numbers.reduce((acc, cur) => {
+//     console.log("Accumulate value ",acc, " Current value :",cur);
+//     acc = acc + cur;
+//     console.log("Accumulate value ",acc, " Current value :",cur);
+//     console.log("");
+//     return acc;
+//   });
+//   console.log(sum);
+// }
 
-sumOfNumbers();
+// sumOfNumbers();
+
+// Printing full name using reduce method
+// const Name = ['sahil', 'pawar']
+// const FullName = Name.reduce ((First, Last) => First + " " + Last
+// )
+//     console.log(FullName)
+
+// calculating the multiplication of the array elements 
+const num = [1, 2, 3, 4, 5];
+const mul = num.reduce((Preval, Newval) => Preval * Newval);
+console.log(mul);
