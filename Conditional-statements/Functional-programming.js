@@ -63,6 +63,16 @@
 // console.log(mul);
 
 // Learning the find method in Functional Programming  
-const Name = ['Sahil', 'Sai', 'Ram', 'Sham']
-const NameWithI = Name.find ((Names) => Names.includes("i"))
-console.log(NameWithI) 
+// const Name = ['Sahil', 'Sai', 'Ram', 'Sham']
+// const NameWithI = Name.find ((Names) => Names.includes("i"))
+// console.log(NameWithI) 
+
+// Example of Find Method 
+// const Countries = ['India', 'Iceland', 'America', 'France', 'New Zeland'];
+// const ConWithM = Countries.find ((contry) => contry.includes("m"));
+// console.log(ConWithM);
+
+// FindIndex method 
+const Countries = ['India', 'Iceland', 'America', 'New Zeland', 'Rus'];
+const ConWithThree = Countries.findIndex (contry => contry.length === 3);
+console.log(ConWithThree);
