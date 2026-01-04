@@ -4,14 +4,14 @@
 // })
 // console.log(newCountries)
 
-// Example of map methods 
+// Example of map methods
 // const Names = ['sai', 'ram', 'sham', 'ben', 'lin']
 // const newName = Names.map (function (Name){
 //     return Name.toLocaleUpperCase()
 // })
 // console.log(newName)
 
-// Using Arrow function 
+// Using Arrow function
 // const Names = ['sai', 'ram', 'sham', 'lin', 'ben']
 // const newNames = Names.map ((name) => name.toLocaleUpperCase())
 // console.log(newNames)
@@ -23,7 +23,7 @@
 
 // Learning Filter method
 // const countries = ['Italy', 'India', 'Germany', 'Hungary', 'Norway', 'Paraguay']
-// const countryNameWithY = countries.filter((country) => 
+// const countryNameWithY = countries.filter((country) =>
 //     country.includes("y")
 // )
 // console.log(countryNameWithY)
@@ -34,7 +34,19 @@
 //     Name.includes("a"));
 // console.log(namesWithA)
 
-// Learning the reduce method 
-const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const sum = numbers.reduce ((acc, cur) => acc + cur)
-console.log(sum)
+// Learning the reduce method
+function sumOfNumbers() {
+  const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+//   const sum = numbers.reduce((prevSum,next)=> prevSum + next);
+// deep explanation of reduce function is below 
+  const sum = numbers.reduce((acc, cur) => {
+    console.log("Accumulate value ",acc, " Current value :",cur);
+    acc = acc + cur;
+    console.log("Accumulate value ",acc, " Current value :",cur);
+    console.log("");
+    return acc;
+  });
+  console.log(sum);
+}
+
+sumOfNumbers();
