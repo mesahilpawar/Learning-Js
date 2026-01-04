@@ -73,6 +73,24 @@
 // console.log(ConWithM);
 
 // FindIndex method 
-const Countries = ['India', 'Iceland', 'America', 'New Zeland', 'Rus'];
-const ConWithThree = Countries.findIndex (contry => contry.length === 3);
-console.log(ConWithThree);
+// const Countries = ['India', 'Iceland', 'America', 'New Zeland', 'Rus'];
+// const ConWithThree = Countries.findIndex (contry => contry.length === 3);
+// console.log(ConWithThree);
+
+// Learning the Some method 
+// const Num = [0, 3, 5, 9]
+// const EvenNum = Num.some((n) => n % 2 === 0);
+// console.log(EvenNum)
+
+// Exercise of functional programming 
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: ' ' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
+]
+for(const {product, price} of products){
+    console.log(`The price of ${product} is ${price}`)
+}
