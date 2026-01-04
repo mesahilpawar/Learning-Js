@@ -58,6 +58,11 @@
 //     console.log(FullName)
 
 // calculating the multiplication of the array elements 
-const num = [1, 2, 3, 4, 5];
-const mul = num.reduce((Preval, Newval) => Preval * Newval);
-console.log(mul);
+// const num = [1, 2, 3, 4, 5];
+// const mul = num.reduce((Preval, Newval) => Preval * Newval);
+// console.log(mul);
+
+// Learning the find method in Functional Programming  
+const Name = ['Sahil', 'Sai', 'Ram', 'Sham']
+const NameWithI = Name.find ((Names) => Names.includes("i"))
+console.log(NameWithI) 
